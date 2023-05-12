@@ -1,0 +1,29 @@
+------------- backend ------------- 
+-> criação do ambiente:
+1. cria arquivo principal app.js
+2. adiciona node: npm init 
+3. instala framework express e banco de dados: npm i express mongodb mongoose
+4. cria arquivo .gitignore e adiciona a pasta node_modules dentro dele 
+
+-> nodemon: ferramenta que reinicia o servidor automaticamente
+1. npm i nodemon
+2. crie o comando "dev": "nodemon app.js" no package.json
+
+-> .env: arquivo que guarda variáveis sensíveis
+1. npm i dotenv
+2. crie aquivo .env e coloque as variáveis lá
+3. require('dotenv').config(); no início do código
+4. chame a variável com process.env.nome_variável
+5. adicione arquivo .env no .gitignore
+
+-> no arquivo app.js
+1. configuração express;
+2. primeira rota get;
+3. conexão com banco de dados (mova para o início do código); 
+4. crie o model;
+5. use o model para salvar os dados no banco de dados (post); 
+6. use middleware para que a aplicação entenda o json;
+7. fetch data (get);
+8. update e delete;
+
+------------- frontend ------------- 
